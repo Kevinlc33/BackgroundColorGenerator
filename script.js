@@ -74,7 +74,7 @@ function hexToCMYK(hex) {
 	// BLACK
 	if (r == 0 && g == 0 && b == 0) {
 		computedK = 1;
-		return [0, 0, 0, 1];
+		return 0 + "%, " + 0 + "%, " + 0 + "%, " + 1 + "%";
 	}
 
 	computedC = 1 - (r / 255);
