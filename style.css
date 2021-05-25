@@ -3,6 +3,7 @@ body {
     color: rgba(0,0,0,.5);
     text-align: center;
     text-transform: uppercase;
+    
     letter-spacing: .5em;
     top: 15%;
 	background: linear-gradient(to right,#40E0D0 , #9b9beb); /* Standard syntax */
@@ -15,6 +16,13 @@ h1 {
     text-transform: uppercase;
     letter-spacing: .5em;
     width: 100%;
+    font-size: 3rem
+}
+
+h2 {
+	
+    font-size: 2rem
+
 }
 
 h3 {
@@ -23,6 +31,7 @@ h3 {
     text-align: center;
     text-transform: none;
     letter-spacing: 0.01em;
+    font-size: 1.1rem
 
 }
 
@@ -39,6 +48,7 @@ button{
     background-color:rgba(255,255,255, .01);;
     text-align:center;
     transition: all 0.5s;
+    font-size: 1.3rem
 }
 
 button:hover{
@@ -50,6 +60,7 @@ button:hover{
     margin:0 0.5em 0.5em 0;
     border-radius:.7em;
     background-color:rgb(255,255,255);;
+    size: 4rem
    
 }
 
